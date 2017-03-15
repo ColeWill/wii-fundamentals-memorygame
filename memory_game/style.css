@@ -3,9 +3,16 @@ header{
 	padding: 30px 20px 30px 20px;
 
 }
+.bod{
+	max-width: 850px;
+	margin: auto;
+}
 
 body{
-	margin: 0;
+	margin-le: 0;
+}
+.cards{
+	margin-left: 6%;
 }
 main{
 	width: 850px;
@@ -28,7 +35,9 @@ h2{
 	font-size: 18px;
 	color: white;
 	background-color: #00A6B3;
-	padding: 20px 20px 20px 20px;
+	padding: 20px 20px 15px 20px;
+	text-decoration: none;
+	display: inline-block;
 }
 
 nav{
@@ -36,6 +45,7 @@ nav{
 	text-decoration: none;
 	text-align: center;
 	color: white;
+	background-color: #00A6B3;
 }
 h3{
 	font-family: Raleway;
@@ -60,10 +70,10 @@ footer{
 	font-family: Raleway;
 }
 a{
-	border-bottom: 2px solid transparent;
+	border-bottom: 2px solid white;
 }
-a:hover {
-	border: 2px solid white;
+h2:hover {
+	border-bottom:2px solid red;
 }
 .message{
 	float: left;
