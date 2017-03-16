@@ -1,5 +1,3 @@
-console.log("Up and running!");
-
 var cards = [
 	{
 		rank: 'queen',
@@ -24,7 +22,6 @@ var cards = [
 ];
 
 var cardsInPlay = [];
-
 var checkForMatch = function() {
 	if (cardsInPlay.length === 2){
 		if (cardsInPlay[0] === cardsInPlay[1]) {
@@ -45,7 +42,6 @@ var flipCard = function() {
 	checkForMatch();
 }
 
-
 var createBoard = function() {
 	for (var i = 0; i < cards.length; i++) {
 			var cardElement = document.createElement('img');
@@ -55,10 +51,8 @@ var createBoard = function() {
 			document.getElementById('game-board').appendChild(cardElement);
 	}
 }
-
 var newGame = function() {
 	document.location.reload();
 }
-
 createBoard();
 
